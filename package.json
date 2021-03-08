@@ -1,0 +1,24 @@
+{
+  "name": "codingame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cgx-formatter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "tsc-watch ./src/cgx-formatter.ts --target ES2015 --outDir ./dist --onSuccess 'node ./dist/cgx-formatter.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vb-oiko/codingame.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vb-oiko/codingame/issues"
+  },
+  "homepage": "https://github.com/vb-oiko/codingame#readme",
+  "devDependencies": {
+    "tsc-watch": "^4.2.9",
+    "typescript": "^4.2.3"
+  }
+}
